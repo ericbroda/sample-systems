@@ -1,0 +1,57 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: customer-analytics
+spec:
+  owner: "user:eric.broda"
+  domain: party-domain
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: customer-web
+spec:
+  owner: "user:eric.broda"
+  domain: party-domain
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: customer-advisor
+spec:
+  owner: "user:eric.broda"
+  domain: party-domain
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: customer-mobile
+spec:
+  owner: "user:eric.broda"
+  domain: party-domain
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: core-banking-accounts
+spec:
+  owner: "user:eric.broda"
+  domain: account-domain
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: core-banking-products
+spec:
+  owner: "user:eric.broda"
+  domain: product-domain
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: core-banking-transactions
+spec:
+  owner: "user:eric.broda"
+  domain: transaction-domain
+---
