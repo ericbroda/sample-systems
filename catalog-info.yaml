@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: sample-systems
+  description: A collection of sample systems
+spec:
+  targets:
+    - brodagroupsoftware.yaml
